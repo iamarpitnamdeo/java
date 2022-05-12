@@ -1,0 +1,22 @@
+Java Interface
+- interface is a blueprint of class.
+- it has static constants and abstract methods.
+- is-a relationship
+- java8 we can have default and static methods in an interface
+- java 9 we can have private methods in an interface 
+
+- use to support multiple inheritance
+- to achieve loose coupling
+
+- variables are public static and final by default.
+- methods are public and abstract 
+- empty interface is called marker or tag interface
+
+
+-The Java compiler adds public and abstract keywords before the interface method.
+ Moreover, it adds public, static and final keywords before data members.
+ 
+ ========================================
+ 
+ If a class implements multiple interfaces, or an interface extends multiple interfaces,
+ it is known as multiple inheritance.
