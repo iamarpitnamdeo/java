@@ -1,0 +1,46 @@
+Collection(interface) 
+        |_ List(interface)
+        |_ Set(interface)
+        |_ Queue(interface)
+
+    Methods - 
+    add()
+    size()
+    remove()
+    iterator()
+    addAll()  - adds all the elements of a specified collection to the collection
+    removeAll()
+    clear()
+
+List(interface) (import java.util.List)
+        |_ ArrayList(class)
+        |_ LinkedList(class)
+        |_ Vector(class)
+            |_Stack(class)
+
+How to use List interface 
+
+// ArrayList implementation of List
+List<String> list1 = new ArrayList<>(); - list1 is object of ArrayList which can use functionalities of list interface
+
+
+// LinkedList implementation of List
+List<String> list2 = new LinkedList<>();      
+
+    Methods
+    |
+    add()  - adds an element to list 
+    addAll() - add all elements of list to another list
+    get() - randomly acces elements from list 
+    iterator() - return iterator object 
+    set() - changes elements of list 
+    remove() 
+    removeAll() 
+    clear() -- // more efficient than removeAll
+    size() 
+
+    toArray() - converts a list to an array 
+    contains() - return boolean
+
+    
+
