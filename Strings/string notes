@@ -1,0 +1,70 @@
+Java String
+- in java string is an object that represents sequence of char values 
+    String s = "Arpit Namdeo";
+- java.lang.String implement Serializable, Comparable and charSequence interfaces
+
+--in java String is immutable , which means it cannot be changed, whenever we change a string a new instance is created. 
+--for mutable strings, we can use StringBuffer and StringBuilder classes.
+
+# String 
+
+two ways to create String object
+    1. by string literal 
+    2. by new keyword 
+
+By String Literal -
+
+    String s = "Arpit"
+    String t = "Arpit" //does not create new instance 
+
+    each time we create string literal jvm checks for string constant pool first 
+    if string is already present in pool a reference to pooled instance is returned. 
+
+Why ? - to make java more memory efficient (no new object created if exist already in string pool)
+
+By new keyword -
+
+    String s = new String("Arpit");//creates two objects and one reference variable 
+
+
+
+STRING BUFFER CLASS 
+         
+- String Buffer class is used to create mutable string objects in java .
+- String buffer class is thread safe i.e. multiple threads cannot access it simultaneously.
+
+StringBuffer() - creates empty SB with capacity of 16
+StringBuffer(String s)-creates SB with specified string
+StringBuffer(int capacity) - creates empty SB with specified capacity
+
+append(String s)// overloaded method
+insert(int pos, String s)
+replace(int startIndex, int EndIndex, String s)
+delete(int startIndex,in endIndex)
+reverse()
+capacity()
+charAt(int index)
+length()//total characters 
+substring(itn begIndex)
+substring(int begIndex,int endIndex)
+
+
+STRING BUILDER CLASS
+
+    Same as StringBufferr calass , only difference is string builder is non-synchronized.
+
+append(String s)
+insert(int pos, String s)
+replace(int startIndex,int endIndex,String s)
+delete(int startIndex,int endIndex)
+reverse()
+charAt(int index)
+length()
+substring(int begIndex)
+substring(int begIndex,int endIndex)
+
+==============
+
+
+toString() - the toString() method returns the string represetnation of the object 
+    

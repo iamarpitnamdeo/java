@@ -1,0 +1,30 @@
+Java Abstraction 
+
+- Process of hiding implementation details and showing only functionality to the user.
+
+- show only essential things to the user and hide the internal details. (Sending SMS)
+
+- focus on what object does instead of how it does it.
+
+- Two ways 
+    1. Abstract class
+    2. Interface 
+
+- ABSTRACT CLASS
+
+- class declared as abstract , cannot be instantiated.
+- can have abstract and non abstract methods 
+- can have constructors and static methods 
+- final methods (which will force the sub class not to change body of the method)
+
+- ABSTRACT METHODS
+
+- method which declared as abstract , does not have implementation 
+
+if there is an abstract method in a class , that class must be abstract
+
+if extend abstract class, either provide the implementation of mthod or maket his class abstract 
+
+- if we do not wan to implement all methods of interface , first implement interface in a abstract class, then extend this abstract calss to a normal class. 
+
+

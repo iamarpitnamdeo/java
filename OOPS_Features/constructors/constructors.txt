@@ -1,0 +1,46 @@
+Java Constructors :
+
+Constructor is a block of code that initializes the newly created objecs.
+
+Has same name as the class name.
+
+When we use new keyword to create an object of a class.
+The new keyword creates the object and invokes the constructor to initialize this newly created object.
+
+Three types
+
+- Default -- If you do not implement any constructor in you class, java compiler inserts a dfault constructor into your code on your behalf.
+  -- Body of constructor is empty.
+  -- compiler only insets a default constructor if you do not have implemented any constructor
+- No-arguments -- Constructor with no agruments. Same as default however body can hav some line of codes.
+- Parametrized -- constructor with arguments/parameters.
+
+if we only write code of parameterised constructor and try to call a default constructor from main funciton
+it will throw an error.
+
+when a constructor calls another constructor of a same class it is called constructor chaining.
+
+Whenever a child class constructor gets invoked it implicitly invokes the constructor of parent class.
+You can also say that the compiler insert a super(); statement at the beginning of a child class constructor.
+
+Constructor Overloading - Constructor overloading is a concept of having more than one constructor with different parameters list, in such a way so that each constructor performs a different task..
+
+Copy Constructor - a copy constructor is used for copying the values of one object to another object.
+
+- Every class has a constructor whether it is a normal class or an abstract class.
+- Constructors are not methods and they do no have return type.
+- Constructors can use any access specifier, they can be declared as private also. Private constructors are possible in java but there scope is within the class only.
+- Like constructors methods can also have same name is class name but still they will have some return type , through which we can identify them that they are methods and not constructors.
+- this() and super() should be the first statemetn in the constructor code. If you don't mention them, compiler does it for you accordingly.
+- constructor overloading is possible but constructor overriding is not possible.
+- Constructors cannot be inherited.
+- if super class does not have a no-arg (default) constructor then compiler would not insert a default constructor in child class as it does in normal scenario.
+- Interfaces do not have constructors.
+- abstract class can have constructor and it get's invoked when a class, which implements interface, is instantiated (i.e. object creation of concrete class).
+- A constructor can also invoke another constructor of the same class - By using this().
+  If you want to invoke a parametrized constructor then do it like this: this(parameter list).
+
+- We cannot mark constructor as static in java, because static method cannot be inherited in the sub class because they belong to the class in which they have been declared. So if you mark constructor as static the subclass will not be able to access the constructor of parent class.
+  -- also staic block comes first in the memory so if we make constructor as static they will called before object creation.
+
+- constructor cannot be static, final , abstract and synchronised while methods can be.

@@ -1,0 +1,12 @@
+ Method Overriding 
+
+- if a child class provides specific implementation of a method declared in parent class it is termed as overriding.(runtime polymorphism)
+
+- the method must have the same name and parameters 
+- should be an is-a relaiton ship (inheritance)
+- Example : reserve bank getting rate of interest from different banks 
+
+- Staic methods cannot be overriden
+- main method cannot be overriden
+
+- if you are overriding any method, the overriden method (i.e. declared in subclass) must not be more restrictive.

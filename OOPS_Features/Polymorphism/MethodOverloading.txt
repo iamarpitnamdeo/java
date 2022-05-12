@@ -1,0 +1,10 @@
+Method OVerloading
+
+- A class having multiple methods having same name and different parameterss.
+- If we want to perfrom same type of operation having method with same name increases readability.
+- In java can be done in two ways
+  1. By changing number of args
+  2. By changing data types of argumetns
+  3. By changing order of arguments
+  4. Not possible by changing return type of methods only.
+- main() method can be overloaded

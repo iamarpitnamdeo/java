@@ -1,0 +1,32 @@
+Notes of java
+
+Single dimensional Array
+int a[]=new int[5];
+int a[]={33,2,3,4,5};
+
+Multi dimensional Array
+int [][]a1= new int[3][3];
+int arr[][]={{1,2,3},{2,4,5},{4,4,5}};
+
+Jagged Array
+
+int arr[][] = new int[3][];  
+arr[0] = new int[3];  
+arr[1] = new int[4];  
+arr[2] = new int[2];
+
+arraycopy()-- used to copy one array to another
+
+===========================>
+String - generally string is a sequence of characters. 
+But in java, string is an object that represents a sequence of characters.
+
+java.lang.String class is used to create string objects
+
+there are two ways to create string object
+- by string literal (jvm go to string pool and provide reference to the string if already available)
+     string literal are used in java to make java more memory efficient (no new object is created if it exist already in the string constant pool)
+- by new keyword	
+
+	in such case jvm will create  new object in normal non-pool heap memory.
+	

@@ -1,0 +1,30 @@
+Inheritance in java -
+What
+-Inheritance in java is a mechanism in which one object acquires all the properties and behaviour of a parent object.
+-The idea behing inheritance in java is that you can create new classes that are build upon existing classes.
+-When you inherit from existing class you can use methods and fields of the parent class.
+
+- Inheritance represents IS-A relationship which is also known as a parent-chil relationship
+
+Why
+
+- For Method Overriding(so runtime polymorphism can be achieved).
+- For code reusability
+
+Terms used in Inheritance
+Class - group of objects which have common properites. Template of blueprint of objects
+
+Sub Class/Child Class - subclass is the class which inherits the other class.
+It is also called a derived class, extended class, or child class.
+
+Super class/Parent class - Superclass is the class from where a subclass inherits the features.
+It is also called a base class or a parent class.
+
+Types - there can be three types of inheritances in java: Single, Multilevel, and hierarhcical
+
+Multiple and Hybrid inheritance is supported thorugh interface only.
+
+Q1 - Why multiple inheritance is not supported in java.
+To reduce complexity and simplify the language multiple inheritance is not supported in java
+
+Ambiguity will be occuring.
