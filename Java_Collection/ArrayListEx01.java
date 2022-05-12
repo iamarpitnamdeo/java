@@ -13,6 +13,8 @@ public class ArrayListEx01 {
         l1.add(3);
         System.out.println("List is : " + l1);
 
+        l1.add(2, 5);
+
         int numbers = l1.get(1);
         System.out.println("element of second position is " + numbers);
 
