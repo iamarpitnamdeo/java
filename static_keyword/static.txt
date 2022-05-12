@@ -1,0 +1,18 @@
+Static class, block , methods and variables
+
+- Static keyword can be used with class variable methods and block.
+- Static members belong to the class instead of a specific object.
+- staic methods can be called withoud object
+
+- static block is used to initialize the staic variables.
+- static block comes first in the memory
+- A class can have multiple static block which will be called in the order they have written in the class
+
+- A staic varialbe is common to all objects of the class because it is a class level variable.
+- Static variables can be accessed directly in the static and non-static methods.
+
+- Static methods can be accessed directly in static and non-static methods.
+
+- class can be made static only if it is a nested class.
+  -- Nested static class doesn't need
+  -- static class cannot access non-static members of outer class.
