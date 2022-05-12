@@ -1,0 +1,14 @@
+Aggregation is a special form of association.
+
+- If a class have an entity reference, it is known as Aggregation
+- It is a relationship between two classes like association, however it's a directional association.
+- It represents HAS-A relationship.
+- Example : Consider two classes Student class and Address class. - Every Student has an address so the relationship between student and address is Has-A
+
+Q - Why we need aggregation ?
+
+To maintain code re-usability. To understand this lets take the same example again. Suppose there are two other classes College and Staff along with Student and Address. In order to maintain address of all these we need no to use the same code again and again.
+
+
+Code reuse is also best achieved by aggregation when there is no is-a relationship.
+Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
