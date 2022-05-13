@@ -42,5 +42,11 @@ List<String> list2 = new LinkedList<>();
     toArray() - converts a list to an array 
     contains() - return boolean
 
+    add(pos,”element”)
+    addFirst()
+    addLast()
+    removeFirst()
+    removeLast()
+
     
 

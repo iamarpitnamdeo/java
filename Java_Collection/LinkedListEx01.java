@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LinkedListEx01 {
     public static void main(String args[]) {
-        List<String> names = new LinkedList<>();
+        LinkedList<String> names = new LinkedList<>();
         names.add("Tony Stark");
         names.add("Thor Ragnarock");
         names.add("Natasha Romanoff");
@@ -22,5 +22,9 @@ public class LinkedListEx01 {
         System.out.println("Removed Element " + str3);
         System.out.println(names);
 
+        names.addFirst("Clint Barerter");
+        names.addLast("Vision");
+        names.addFirst("Rody");
+        System.out.println(names);
     }
 }
