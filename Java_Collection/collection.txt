@@ -13,7 +13,7 @@ Collection(interface)
     clear()
 
 List(interface) (import java.util.List)
-        |_ ArrayList(class)
+        |_ ArrayList(class)  -- dynamic | resizable arrays
         |_ LinkedList(class)
         |_ Vector(class)
             |_Stack(class)
@@ -22,7 +22,8 @@ How to use List interface
 
 // ArrayList implementation of List
 List<String> list1 = new ArrayList<>(); - list1 is object of ArrayList which can use functionalities of list interface
-
+#ArrayList
+    Arrays.asList(arr) - convert array to arraylist 
 
 // LinkedList implementation of List
 List<String> list2 = new LinkedList<>();      
@@ -47,6 +48,13 @@ List<String> list2 = new LinkedList<>();
     addLast()
     removeFirst()
     removeLast()
+
+//vector implementation of list
+
+- resizable arrays similar to ArrayList class 
+- The Vector class synchronizes each individual operation.
+  This means whenever we want to perform some operation on vectors, the Vector class automatically applies a lock to that operation.
+
 
     
 
