@@ -1,0 +1,41 @@
+Testing is the process of identifying defects, 
+where a defect is any variance between actual and expected results. 
+“A mistake in coding is called Error, error found by tester is called Defect,
+defect accepted by development team then it is called Bug, 
+build does not meet the requirements then it Is Failure.”
+
+
+Exception - An Exception is an unwanted event that interrupts the normal flow of the program
+
+                                      object
+                                        |
+                                     Throwable  
+              ________________________|______________________
+            Exception                                           Error
+            |_IOException                                           |_StackOverFlowError
+            |_SQLException                                          |_VirtualMachineError
+            |_ClassNotFoundException                                |_OutOfMemoryError
+            |_RuntimeException 
+                    |_ArithmeticException
+                    |_NullPointerException
+                    |_NumberFormatException
+                    |_IndexOutOfBoundException
+                            |_ArrayIndexOutOfBoundsException
+                            |_StringIndexOutOfBoundsException    
+                    
+There are two types of Exception
+CheckedException - are checked at compile time
+UncheckedException - are checked runtime 
+
+1. Try Catch Block
+    a try block must be followed by catch blocks or finally block or both
+2. Nested try anc catch block in java
+    when try catch block inside another try block is calld nested. 
+    if any try block do no have catch handler for exception then catch block of parent try block are inspected for excetpion                   
+3. Finally block 
+    * cannot use finally block without try block
+    * if there are return continue or break statement in try block the finally will execute
+    * finally block will not execute if - death of a theread
+                                        - using system.exit() method
+                                        - due to an exception arising in the finally block
+                                            
